@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:gravity="center"
-                android:text="SUHU"
+                android:text="API"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="#000000"
                 android:textStyle="bold" />
@@ -132,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:gravity="center"
-                android:text="ASAP"
+                android:text="ASAP1"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="#000000"
                 android:textStyle="bold" />
@@ -189,7 +189,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:gravity="center"
-                android:text="Api"
+                android:text="ASAP2"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="#000000"
                 android:textStyle="bold" />
@@ -235,7 +235,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:gravity="center"
-                android:text="CO2"
+                android:text="SUHU"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="#000000"
                 android:textStyle="bold" />
@@ -245,13 +245,13 @@
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/panduan"
+        android:onClick="panduan"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="64dp"
         android:layout_marginRight="64dp"
         android:layout_marginBottom="16dp"
-        android:text="Panduan "
+        android:text="Panduan"
         android:textSize="16sp"
         android:theme="@style/Theme.MaterialComponents.Light"
         app:backgroundTint="@color/colorPrimaryDark"
@@ -259,14 +259,9 @@
 
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:fontFamily="monospace"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
-        android:textStyle="italic" />
+
+
+
 
 
 </LinearLayout>
